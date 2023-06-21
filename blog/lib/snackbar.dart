@@ -26,6 +26,7 @@ class _SnackbarDemoState extends State<SnackbarDemo> {
                   content: const Text("Learn and enjoy!",style: TextStyle(color: Colors.red),),
                   duration: const Duration(seconds: 5),
                   backgroundColor:Colors.lime ,
+
                   shape:const RoundedRectangleBorder( // StadiumBorder()
                    side: BorderSide(
                      color: Colors.red,
